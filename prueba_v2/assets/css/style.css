@@ -26,6 +26,11 @@ html{
     background: transparent;
     width:100%;
 }
+
+.carousel-control-next{
+    height: 50px;
+    margin-top: 38rem;
+}
 /* sección de columnas */
 #quienes-somos{
     background: black;
