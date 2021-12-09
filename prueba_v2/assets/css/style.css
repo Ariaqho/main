@@ -2,6 +2,9 @@
     font-family: 'Inconsolata', monospace;
 } /* selector universal para el tipo/estilo de letra */
 
+html{
+    scroll-behavior: auto !important;
+}
 /*navbar */
 #navbarNavAltMarkup{
     justify-content: flex-end;
