@@ -51,3 +51,17 @@ p{
     background: black;
     width: 100%;
 }
+
+.card{
+    margin: 2rem;
+}
+
+.card-body{
+    background: turquoise;
+}
+
+.parrafo-form{
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+}
