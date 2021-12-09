@@ -1,0 +1,23 @@
+*{
+    font-family: 'Inconsolata', monospace;
+} /* selector universal para el tipo/estilo de letra */
+
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    margin-right: 3rem;
+}
+
+.logo-viajes-chile{
+    height: 2em;
+    width: 2em;
+}
+
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: rgb(0, 0, 0); opacity: 0.85;
+    width:100%;
+}
