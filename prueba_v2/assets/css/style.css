@@ -12,12 +12,13 @@
 .logo-viajes-chile{
     height: 2em;
     width: 2em;
+    margin-left: 3rem;
 }
 
-.navbar {
+.navbar{
     position:absolute;
     top:0;
-    z-index:10;
-    background: rgb(0, 0, 0); opacity: 0.85;
+    z-index:1;
+    background: transparent;
     width:100%;
 }
