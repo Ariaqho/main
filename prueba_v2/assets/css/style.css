@@ -2,6 +2,7 @@
     font-family: 'Inconsolata', monospace;
 } /* selector universal para el tipo/estilo de letra */
 
+/*navbar */
 #navbarNavAltMarkup{
     justify-content: flex-end;
     font-family: 'Inconsolata', monospace;
@@ -22,6 +23,7 @@
     background: transparent;
     width:100%;
 }
+/* sección de columnas */
 #quienes-somos{
     background: black;
     width: 100%;
@@ -47,6 +49,7 @@ p{
     padding: auto;
 }
 
+/* set de tarjetas */
 #sec-destacados{
     background: black;
     width: 100%;
@@ -65,4 +68,15 @@ p{
     font-weight: 400;
     font-size: 2rem;
     font-family: 'Inconsolata', monospace;
+}
+
+/* footer */
+
+#footer{
+    background-color: turquoise;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
 }
