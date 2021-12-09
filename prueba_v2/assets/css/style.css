@@ -27,6 +27,10 @@
     width: 100%;
 }
 
+#quienes-somos i{
+    color: white;
+}
+
 h4{
     text-align: center;
     font-weight: 400;
@@ -41,4 +45,9 @@ hr{
 p{
     color: white;
     padding: auto;
+}
+
+#sec-destacados{
+    background: black;
+    width: 100%;
 }
