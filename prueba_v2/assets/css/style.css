@@ -2,9 +2,6 @@
     font-family: 'Inconsolata', monospace;
 } /* selector universal para el tipo/estilo de letra */
 
-html{
-    scroll-behavior: auto !important;
-}
 /*navbar */
 #navbarNavAltMarkup{
     justify-content: flex-end;
@@ -18,12 +15,11 @@ html{
     width: 2em;
     margin-left: 3rem;
 }
-
 .navbar{
-    position:absolute;
+    position: fixed;
     top:0;
     z-index:1;
-    background: transparent;
+    background: rgba(0, 0, 0, .5);
     width:100%;
 }
 
@@ -41,6 +37,10 @@ html{
     color: white;
 }
 
+i{
+    background-color: turquoise;
+}
+
 h4{
     text-align: center;
     font-weight: 400;
@@ -56,7 +56,9 @@ p{
     color: white;
     padding: auto;
 }
-
+#parrafos-text{
+    margin: auto;
+}
 /* set de tarjetas */
 #sec-destacados{
     background: black;

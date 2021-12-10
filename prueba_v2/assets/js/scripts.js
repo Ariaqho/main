@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    $(a).click(function(){
-        var hashtag = this.hash
+    $().click(function(){
+        var gato = this.hash
 
         $("html,body").animate(
             {
                 scrolltop: $(gato).offset().top
             },
-                800
+                800 
             )
 
     })
@@ -16,3 +16,4 @@ $(document).ready(function(){
 
 
 })
+
