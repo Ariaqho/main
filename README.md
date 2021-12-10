@@ -1,2 +1,2 @@
-# main
+# viajes_chile
 Viajes Chile
